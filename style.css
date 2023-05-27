@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'rubik' ,'Lucida Sans', 'Lucida Sans Regular';
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    
+}
+body{
+    background-color: rgb(30, 30, 30);
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+/* navigation bar and header start  */
+
+
+nav{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 10000;
+}
+.logo{
+    color: rgb(194, 42, 77);
+    font-weight: 700;
+}
+.search>img{
+    background-color: whitesmoke;
+    padding: 9.3px;
+    box-sizing: unset;
+    border-top: 1px solid rgba(167, 167, 167, 0.847);
+        border-right: none;
+        border-bottom: 1px solid rgba(167, 167, 167, 0.847);
+        border-left: 1px solid rgba(167, 167, 167, 0.847);
+    border-radius: 10px 0px 0px 10px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-container1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(35, 35, 35);
+}
+.nav-container1 > button{
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(194, 42, 77);
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+}
+.nav-container1 > button:hover{
+    background-color:rgba(194, 42, 77, 0.893);
+}
+.nav-container1 input{
+    width: 60vw;
+    height: 45px;
+    background-color: whitesmoke;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    font-size: 17px;
+}
+.nav-container2{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 59, 105, 0.585);
+}
+.nav-container2 > ul{
+    width: 40%;
+    justify-content: space-around;
+    display: flex;
+    
+
+}
+.nav-container2>ul>li>a{
+    color: white;
+}
+.nav-container2>ul>li>a:hover{
+    font-weight: 700;
+}
+/* navigation end  */
+
+.banner-section{
+
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+.banner-section>img{
+    margin-top: 150px;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 500px;
+    border-radius: 80px;
+}
+
+/* about */
+#about{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+#about>h1{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+ 
+}
+.about-container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.about-para{
+    padding: 50px;
+    padding-bottom: 0px;
+    text-align: justify;
+}
+.about-img>img{
+    width: 300px;
+}
+.read{
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(194, 42, 77);
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+}
+.read:hover{
+  background-color:   rgba(194, 42, 77, 0.893);
+}
+#menu{
+padding: 150px;
+
+}
+#menu>h1{
+    text-align: center;
+    padding-bottom: 100px;
+    color: white;
+}
+.heading{
+    color:rgb(194, 42, 77);
+}
+.menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.item img{
+    width: 200px;
+}
+.item{
+    width: 500px;
+    display: flex;
+    margin-bottom: 15px;
+}
+.item p{
+    padding: 10px;
+}
+
+/* find us */
+
+h1{
+    text-align: center;
+    padding-bottom: 100px;
+}
+i{
+    padding: 15px;
+}
+#find-us{
+    color: white;
+    padding: 200px;
+}
+.find-section1{
+    width: 400px;
+}
+.find-container{
+    display: flex;
+    padding: 20px;
+}
+
+/* footer section  */
+.foot-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    padding-top: 0px;
+
+}
+h2{
+    padding-left: 120px;
+    color: rgb(194, 42, 77);
+    padding-bottom: 15px;
+}
+a{
+    color: whitesmoke;
+}
